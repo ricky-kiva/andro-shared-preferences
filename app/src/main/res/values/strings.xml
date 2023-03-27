@@ -6,6 +6,7 @@
     <string name="age">Age</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="add">Add Preference</string>
     <string name="save">Save</string>
     <string name="love_metallica">Like Metallica?</string>
     <string name="change">Change</string>
