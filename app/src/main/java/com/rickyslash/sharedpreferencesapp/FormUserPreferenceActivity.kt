@@ -1,5 +1,6 @@
 package com.rickyslash.sharedpreferencesapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
@@ -108,6 +109,8 @@ class FormUserPreferenceActivity : AppCompatActivity(), View.OnClickListener {
             }
 
             saveUser(name, email, age, phone, isLoveMetal)
+            val intent = Intent(this@FormUserPreferenceActivity, MainActivity::class.java)
+            startActivity(intent)
 
         }
     }
@@ -131,7 +134,7 @@ class FormUserPreferenceActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun showPreferenceInForm() {
         binding.edtName.setText(userModel.name)
-        binding.edtEmail.setText(userModel.age.toString())
+        binding.edtEmail.setText(userModel.email.toString())
         binding.edtAge.setText(userModel.age.toString())
         binding.edtPhone.setText(userModel.phoneNumber)
         if (userModel.isLove) binding.rbYes.isChecked = true else binding.rbNo.isChecked = true
