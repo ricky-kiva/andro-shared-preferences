@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Shared Preferences App</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone</string>
+    <string name="age">Age</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="love_metallica">Like Metallica?</string>
+    <string name="change">Change</string>
+    <string name="dummy_name">Rickyslash</string>
+    <string name="dummy_email">r.ckyslash@gmail.com</string>
+    <string name="dummy_number">123456</string>
+    <string name="dummy_age">22</string>
+    <string name="dummy_islove">I HEART METALLICA</string>
 </resources>
